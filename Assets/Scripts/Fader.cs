@@ -18,6 +18,7 @@ public class Fader : MonoBehaviour
             _image.color = color;
 
             yield return null;
+           
         }
     }
     private void Start()
