@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class FreeWayChecker : MonoBehaviour
 {
-    [SerializeField] Rigidbody2D _rigidbody2D;
-    [SerializeField] float _speed;
-    [SerializeField] ContactFilter2D _filter;
+    [SerializeField] private Rigidbody2D _rigidbody2D;
+    [SerializeField] private float _speed;
+    [SerializeField] private ContactFilter2D _filter;
     // Start is called before the first frame update
     private readonly RaycastHit2D[ ] _results = new RaycastHit2D[1];
     void Start()

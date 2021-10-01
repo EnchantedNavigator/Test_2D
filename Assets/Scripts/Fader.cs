@@ -9,7 +9,7 @@ public class Fader : MonoBehaviour
     // Start is called before the first frame update
 
 
-    private IEnumerator FadeIn(float duration)
+    private IEnumerator FadeIn()
     {
         var color = _image.color;
         for (int i = 0; i < 255; i++)
@@ -23,7 +23,7 @@ public class Fader : MonoBehaviour
     }
     private void Start()
     {
-        var fadeInJob = StartCoroutine(FadeIn(1));
+        var fadeInJob = StartCoroutine(FadeIn());
     }
 
     // Update is called once per frame
