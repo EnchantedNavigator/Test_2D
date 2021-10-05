@@ -14,9 +14,9 @@ public class ScreenshotLayouts : MonoBehaviour
     {
         Render(new List<Screenshot>()
         {
-            new Screenshot(_defaultSprite,System.DateTime.Now),
-             new Screenshot(_defaultSprite,System.DateTime.Now),
-              new Screenshot(_defaultSprite,System.DateTime.Now)
+            new Screenshot(_defaultSprite,DateTime.Now),
+             new Screenshot(_defaultSprite,DateTime.Now),
+              new Screenshot(_defaultSprite,DateTime.Now)
 
         }) ;
     }

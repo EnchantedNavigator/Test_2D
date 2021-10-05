@@ -1,3 +1,4 @@
+using Assets.Scripts.InterfaceScripts.Extentions;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -31,7 +32,13 @@ public class ScreenshotViewer : MonoBehaviour, IBeginDragHandler, IDragHandler,I
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        transform.SetParent(_previousParent, false);
+        
+        var container = EventSystem.current.GetFirstComponentUnderPointer<DropContainer>(eventData);
+        if (container != null)
+        {
+            transform.parent = container.Container;
+        }else transform.SetParent(_previousParent, false);
+
     }
 
     public void Render(Screenshot screenshot)
