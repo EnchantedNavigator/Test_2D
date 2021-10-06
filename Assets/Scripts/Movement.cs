@@ -24,5 +24,13 @@ public class Movement : MonoBehaviour
         {
             transform.Translate(_speed * Time.deltaTime * -1, 0, 0);
         }
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(0,_speed * Time.deltaTime, 0);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(0, _speed * Time.deltaTime * -1, 0);
+        }
     }
 }
