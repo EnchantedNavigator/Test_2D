@@ -8,7 +8,6 @@ public class CardView : MonoBehaviour
     [SerializeField] private Card _card;
     [SerializeField] private Image _image;
     [SerializeField] private Text _name;
-    [SerializeField] private Sprite _icon;
 
     private void Start()
     {

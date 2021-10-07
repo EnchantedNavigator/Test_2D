@@ -48,3 +48,93 @@ C# parse time         : 409ms
 candidates check time : 61ms
 console write time    : 1ms
 
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:16:36 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 2831,0066ms
+moved types parse time: 183ms
+candidates parse time : 3ms
+C# parse time         : 1669ms
+candidates check time : 122ms
+console write time    : 7ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:18:22 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 169,0046ms
+moved types parse time: 141ms
+candidates parse time : 3ms
+C# parse time         : 528ms
+candidates check time : 111ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:18:43 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 179,0029ms
+moved types parse time: 157ms
+candidates parse time : 3ms
+C# parse time         : 523ms
+candidates check time : 114ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:18:56 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 174,9994ms
+moved types parse time: 144ms
+candidates parse time : 3ms
+C# parse time         : 535ms
+candidates check time : 106ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:20:15 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 200,0032ms
+moved types parse time: 142ms
+candidates parse time : 3ms
+C# parse time         : 483ms
+candidates check time : 111ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:20:32 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 165,9936ms
+moved types parse time: 140ms
+candidates parse time : 3ms
+C# parse time         : 478ms
+candidates check time : 114ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:20:47 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 175,0042ms
+moved types parse time: 184ms
+candidates parse time : 3ms
+C# parse time         : 468ms
+candidates check time : 118ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 12:20:53 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 183,9959ms
+moved types parse time: 155ms
+candidates parse time : 3ms
+C# parse time         : 534ms
+candidates check time : 123ms
+console write time    : 1ms
+
+[api-updater (non-obsolete-error-filter)] 07.10.2021 13:19:19 : Starting D:/work/projects/2020.3.19f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 331,0057ms
+moved types parse time: 148ms
+candidates parse time : 3ms
+C# parse time         : 436ms
+candidates check time : 78ms
+console write time    : 1ms
+
