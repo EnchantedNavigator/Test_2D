@@ -54,6 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\WaypointMovement.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\Player\RunnerPlayer.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\ScrollViewColorChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\Scripts\DotWeenScripts\Follow.cs" />
@@ -63,18 +64,27 @@
     <Compile Include="Assets\Scripts\EndColorChanger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\Player\PlayerInput.cs" />
     <Compile Include="Assets\Scripts\DotWeenScripts\MoveTo.cs" />
     <Compile Include="Assets\Scripts\DotWeenScripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scenes\Typed\Scene3.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\InputToText.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\Screenshot.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\Enemy\EnemyMover.cs" />
     <Compile Include="Assets\Scripts\TabScripts\TabManager.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\Spawner\Spawner.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\GameOver.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Block.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\HealthDisplay.cs" />
+    <Compile Include="Assets\Scripts\GameLoader.cs" />
     <Compile Include="Assets\Scripts\SO\AbillityLogicSingleTarget.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\Player\PlayerMover.cs" />
     <Compile Include="Assets\Scripts\SO\AbillityActionDamage.cs" />
+    <Compile Include="Assets\Scripts\SO\LevelConfig.cs" />
     <Compile Include="Assets\Scripts\LerpExample.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\Extensions\EventSystemExtensions.cs" />
     <Compile Include="Assets\Scripts\GameFinishTrigger.cs" />
@@ -90,6 +100,7 @@
     <Compile Include="Assets\Scripts\InterfaceScripts\DropDownToText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scenes\Typed\Runner.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\ButtonClicked.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
@@ -97,6 +108,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\Scripts\SO\AbillityAction.cs" />
     <Compile Include="Assets\Scripts\DotWeenScripts\Path.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\Enemy\RunnerEnemy.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\ScreenshotLayouts.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Scripts\EndPoint.cs" />
@@ -107,14 +119,18 @@
     <Compile Include="Assets\Scripts\SO\Goods.cs" />
     <Compile Include="Assets\Scripts\TabScripts\Tab.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\DropContainer.cs" />
+    <Compile Include="Assets\Scenes\Typed\Scene1.cs" />
+    <Compile Include="Assets\Scripts\TowerBuilder.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\SO\Card.cs" />
     <Compile Include="Assets\Scripts\SO\Swords.cs" />
     <Compile Include="Assets\Scripts\InterfaceScripts\Toggle.cs" />
     <Compile Include="Assets\Scripts\SO\Unit.cs" />
     <Compile Include="Assets\Scripts\SO\AbillytyLogic.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\ObjectPool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\Scenes\Typed\Scene2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
@@ -134,22 +150,9 @@
     <Compile Include="Assets\Scripts\SO\SimpleShop.cs" />
     <Compile Include="Assets\Scripts\SO\Abillity.cs" />
     <Compile Include="Assets\Scripts\MovementScripts\Leg.cs" />
-    <Compile Include="Assets\Scripts\GameLoader.cs" />
-    <Compile Include="Assets\Scenes\Typed\Scene3.cs" />
-    <Compile Include="Assets\Scenes\Typed\Scene2.cs" />
-    <Compile Include="Assets\Scenes\Typed\Scene1.cs" />
-    <Compile Include="Assets\Scripts\SO\LevelConfig.cs" />
-    <Compile Include="Assets\Scripts\TowerBuilder.cs" />
-    <Compile Include="Assets\Scenes\Typed\Runner.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\Player\RunnerPlayer.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\Player\PlayerInput.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\Player\PlayerMover.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\Enemy\RunnerEnemy.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\Enemy\EnemyMover.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\Spawner\Spawner.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\HealthDisplay.cs" />
-    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\Heart.cs" />
+    <Compile Include="Assets\Scripts\RunnerScripts\UIScripts\BackgroundParalax.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
